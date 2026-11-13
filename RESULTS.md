@@ -1,6 +1,6 @@
 ### Exercise 2: Bridge Crossing Analysis
 
-discount: cant find it  
+discount: cant find it, does not exist  
 noise: 0.01
 
 ### Exercise 3: Policies 
