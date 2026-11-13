@@ -80,7 +80,7 @@ class QLearningAgent(ReinforcementAgent):
             return None
         bestValue = self.computeValueFromQValues(state)
         bestActions = [a for a in actions if self.getQValue(state, a) == bestValue]
-        return random.choice(bestActions)   #maybe not actually a good idea
+        return random.choice(bestActions)   #maybe something else?
 
     def getAction(self, state):
         """
